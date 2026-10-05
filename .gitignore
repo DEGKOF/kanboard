@@ -1,0 +1,12 @@
+# Données d'exécution (base SQLite, pièces jointes, cache, logs)
+/data/*
+!/data/.htaccess
+!/data/web.config
+
+# Configuration locale (contient les identifiants de base de données)
+/config.php
+
+.DS_Store
+*.swp
+.idea/
+.vscode/
